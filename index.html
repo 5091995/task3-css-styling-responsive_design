@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3 – Responsive Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Cognifyz Intership Task3-DivyaPauldurai</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="text-center text-white d-flex align-items-center justify-content-center" style="height: 80vh; background-color: #007BFF;">
+  <div>
+    <h1 class="display-4">Welcome to MySite</h1>
+    <p class="lead">Advanced CSS Styling & Responsive Design</p>
+    <a href="#contact" class="btn btn-light btn-lg mt-3">Get Started</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="container py-5">
+  <h2 class="text-center mb-4">About Us</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <p>We create modern, responsive websites using HTML, CSS, JavaScript, and frameworks like Bootstrap.</p>
+    </div>
+    <div class="col-md-6">
+      <img src="https://via.placeholder.com/500" class="img-fluid rounded shadow" alt="About Image">
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Features</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-3">
+        <div class="feature-card p-4 rounded shadow hover-effect">
+          <h4>Responsive Design</h4>
+          <p>Works perfectly on all devices.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="feature-card p-4 rounded shadow hover-effect">
+          <h4>Animations</h4>
+          <p>Modern transitions and hover effects.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="feature-card p-4 rounded shadow hover-effect">
+          <h4>Bootstrap</h4>
+          <p>Consistent UI with pre-built components.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container py-5">
+  <h2 class="text-center mb-4">Contact Us</h2>
+  <form>
+    <div class="mb-3">
+      <label>Name</label>
+      <input type="text" class="form-control" placeholder="Enter your name">
+    </div>
+    <div class="mb-3">
+      <label>Email</label>
+      <input type="email" class="form-control" placeholder="Enter your email">
+    </div>
+    <div class="mb-3">
+      <label>Message</label>
+      <textarea class="form-control" rows="4"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  &copy; 2026 MySite. All rights reserved.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

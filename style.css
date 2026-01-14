@@ -1,0 +1,26 @@
+/* General font */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Hover effect for feature cards */
+.hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+/* Hero section text animation */
+@keyframes fadeInDown {
+  0% { opacity: 0; transform: translateY(-50px);}
+  100% { opacity: 1; transform: translateY(0);}
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(50px);}
+  100% { opacity: 1; transform: translateY(0);}
+}
+
+.display-4 { animation: fadeInDown 1s ease forwards; }
+.lead { animation: fadeInUp 1s 0.5s ease forwards; }
+.btn { animation: fadeInUp 1s 1s ease forwards; }
